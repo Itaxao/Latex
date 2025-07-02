@@ -1,0 +1,160 @@
+\documentclass[12pt,a4paper]{article}
+
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx}
+\usepackage[sfdefault,condensed]{cabin}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{epstopdf}
+\usepackage{soul}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{lipsum}
+\usepackage{subfig}
+\RequirePackage[numbers]{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newcommand{\CEFETdisciplina}{Contexto Social e Profissional da Engenharia da Computação}
+\newcommand{\CEFETprofessor}{Eduardo Miranda}
+
+% aumentando as margens originais do documento
+\usepackage{microtype}
+\addtolength{\textwidth}{2cm}
+\addtolength{\hoffset}{-1cm}
+\addtolength{\textheight}{-2cm}
+
+%Para algoritmos ----------------------
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+\lstset{
+  language=Python,
+  basicstyle=\footnotesize,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  stepnumber=1,
+  numbersep=5pt,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  frame=single,
+  rulecolor=\color{black},
+  tabsize=4,
+  captionpos=b,
+  breaklines=true,
+  breakatwhitespace=false,
+  title=\lstname,
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve}
+}
+%--------------------------------------
+
+\usepackage{lastpage}
+
+% paragrafos
+\setlength{\parskip}{.5cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{firstpage}{%
+  \fancyhf{}%
+  \renewcommand{\headheight}{85pt}%
+  \fancyhead[L]{\includegraphics[width=3.6cm]{images/logo.png}\vspace{.3cm}}
+  \fancyhead[R]{%
+        \textbf{CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE
+        MINAS GERAIS}\\CAMPUS V - UNIDADE DIVINÓPOLIS - Engenharia
+        da Computação\\\vspace{.3cm}\CEFETdisciplina\\\CEFETprofessor\\\vspace{-.3cm}
+  }%
+}
+\fancypagestyle{otherpage}{%
+  \fancyhf{}%
+  \renewcommand{\headheight}{45pt}%
+  \renewcommand{\footrulewidth}{1pt}
+  \renewcommand{\headrulewidth}{1pt}
+  \fancyhead[R]{\CEFETdisciplina\\
+    \CEFETprofessor\\\vspace{-.3cm}
+  }%
+  \addtolength{\textheight}{50pt}
+}
+
+% Enables use of commands like \@author
+\makeatletter
+\newcommand{\CEFETtitulo}[1]{
+\begin{center}
+\begin{Large}
+\textbf{\\#1\\}
+\end{Large}
+\vspace{.5cm}
+{\large \textbf{\@author}} % This now correctly displays the author's name
+\end{center}
+\vspace{.5cm}
+}
+\makeatother % Reverts @ to its normal category code
+
+\newcommand{\CEFETsubtitulo}[1]{
+\begin{center}
+\begin{large}
+\textbf{#1\\}
+\end{large}
+\end{center}
+}
+
+\newcommand{\CEFETopen}{
+    \selectlanguage{brazilian}
+    \pagestyle{otherpage}
+    \thispagestyle{firstpage}
+}
+
+%para colunas--------------------------
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\definecolor{cefetblue}{RGB}{2, 65, 112}
+\makeatletter
+\def\columnseprulecolor\vrule\@width\columnseprule{
+\vbox to \ht\mult@rightbox{\leaders\vbox{\kern2pt\kern2pt}\vfill}}
+\makeatother
+\setlength{\columnseprule}{5px}
+
+\author{*********} % This sets the author for the document
+%--------------------------------------
+\begin{document}
+    \title{Modelo Relatório CEFET} % This is still needed for \@title and internal LaTeX use
+    \CEFETopen
+    \CEFETtitulo{Inovações Tecnlógicas e Futuro da Engenharia da Computação}
+
+
+    \section{IA e Machine Learning}
+
+
+    \subsection{Desafios éticos em relação às IA's}
+
+    Segundo a revista Complexitas(2019)\citet{complexitas6633} é de suma importância um interesse tanto acadêmico quanto governamental ao que tange o 
+    problema relacionado a forma como a IA e as empresas detentoras de seus domínios utilizam os dados de seus usuários, mas também a forma como será 
+    punido àquele utiliza-la de maneira não ética, para isso é necessário formulação de leis de maneiras concisas e funcionais, baseando-se não somente no
+    usuário, mas também na forma como a empresa detentora dos direitos pode e deverá ser punida, contudo, é complexo a funcionalidade dessas leis,
+    principalmente levando em conta a quantidade de diferentes domínios utilizados para apenas um modelo de linguagem generativa, a complexidade dessas leis
+    é bem crível quando pensamos de maneira objetiva, imagina que um usuário brasileiro em um voo internacional em um avião de uma empresa italiana, 
+    passando por portugal, e essa pessoa comete um crime utilizando o modelo de linguagem generativa de uma empresa estadunidense, a burocracia relacionada
+    ao caso será destinada a quem, Brasil?Italia?Estados Unidos ou até mesmo Portugal? Levando em conta as Leis atuais não é possível haver um consenso
+    quanto o julgamento deste caso, quem será punido é o criminoso ou a empresa da "IA" que permitiu que ele fizesse isso? Portanto é necessário uma análise
+    ética a forma como será utilizada e quem será punido nesse e outros casos parecidos.
+
+
+
+
+
+
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{referencias}
+\end{document}
