@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.6.11)  2 JUL 2025 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.6.11)  3 JUL 2025 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,25 +663,25 @@ LaTeX Font Info:    Font shape `T1/Cabin-TLF/bc/n' aliased to
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/boldcondensed/n' will be
 (Font)              scaled to size 14.4pt on input line 132.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/bc/n' aliased to
-(Font)              `T1/Cabin-TLF/boldcondensed/n' on input line 140.
+(Font)              `T1/Cabin-TLF/boldcondensed/n' on input line 139.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/boldcondensed/n' will be
-(Font)              scaled to size 12.0pt on input line 140.
+(Font)              scaled to size 12.0pt on input line 139.
 
 
-Package natbib Warning: Citation `complexitas6633' on page 1 undefined on input line 140.
+Package natbib Warning: Citation `complexitas6633' on page 1 undefined on input line 150.
 
 
 
 <images/logo.png, id=4, 894.34125pt x 894.34125pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 157.
+Package pdftex.def Info: images/logo.png  used on input line 160.
 (pdftex.def)             Requested size: 102.43008pt x 102.4172pt.
-/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex:157: You can't use `the character 8' after \the.
+/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex:160: You can't use `the character 8' after \the.
 \headheight ->8
                5pt
-l.157 \clearpage
-                
+l.160 
+      
 I'm forgetting what you said and using zero instead.
 
 
@@ -693,15 +693,36 @@ Package fancyhdr Warning: \headheight is too small (05pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cabin/cbn_i3ioen.enc}
 
- <./images/logo.png>] (./Inovacoes.bbl
+ <./images/logo.png>]
+
+Package natbib Warning: Citation `Almeida_Nas_2024' on page 2 undefined on input line 165.
+
+
+
+[2]
+/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex:189: Too many }'s.
+l.189     \subsection{TendÃªncias Futuras}}
+                                           
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (9.68335pt too wide) in paragraph at lines 190--200
+\T1/Cabin-TLF/condensed/n/12 (-20) conteúdos cada vez mais sofisticados, como textos, imagens, músicas e até mesmo códigos de programação,
+ []
+
+
+Overfull \hbox (7.5321pt too wide) in paragraph at lines 190--200
+\T1/Cabin-TLF/condensed/n/12 (-20) com maior autonomia e criatividade. Isso terá implicações vastas para indústrias criativas, desenvolvimento
+ []
+
+
+
+[3] (./Inovacoes.bbl
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/c/it' aliased to
 (Font)              `T1/Cabin-TLF/condensed/it' on input line 11.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/condensed/it' will be
 (Font)              scaled to size 12.0pt on input line 11.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
  (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
@@ -716,13 +737,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 
 Package natbib Warning: There were undefined citations.
 
 
 
-[2
+[4
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -747,24 +773,24 @@ Package rerunfilecheck Warning: File `Inovacoes.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `Inovacoes.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  134DB414366C3967B7CFE35A3A9AD5A6;411.
+(rerunfilecheck)             After:  18288DB0A880BCC82457602C8105EF7F;1002.
 
-Package lastpage Warning: Rerun to get the references right on input line 160.
+Package lastpage Warning: Rerun to get the references right on input line 205.
 
  ) 
 Here is how much of TeX's memory you used:
- 19010 strings out of 475171
- 312248 string characters out of 5767095
- 1010815 words of memory out of 5000000
- 41629 multiletter control sequences out of 15000+600000
- 648964 words of font info for 118 fonts, out of 8000000 for 9000
+ 19087 strings out of 475171
+ 314950 string characters out of 5767095
+ 1013815 words of memory out of 5000000
+ 41636 multiletter control sequences out of 15000+600000
+ 656637 words of font info for 161 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  85i,15n,133p,1062b,531s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/impallari/cabin/CabinCondensed-BoldCondensed.pfb></usr/share/texmf-dist/fonts/type1/impallari/cabin/CabinCondensed-ItalicCondensed.pfb></usr/share/texmf-dist/fonts/type1/impallari/cabin/CabinCondensed-RegularCondensed.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Inovacoes.pdf (2 pages, 262880 bytes).
+</usr/share/texmf-dist/fonts/type1/impallari/cabin/CabinCondensed-BoldCondensed.pfb></usr/share/texmf-dist/fonts/type1/impallari/cabin/CabinCondensed-ItalicCondensed.pfb></usr/share/texmf-dist/fonts/type1/impallari/cabin/CabinCondensed-RegularCondensed.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Inovacoes.pdf (4 pages, 287430 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 31238 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 33286 words of extra memory for PDF output out of 35830 (max. 10000000)
 
