@@ -134,6 +134,8 @@ INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 INPUT /usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -224,12 +226,12 @@ INPUT /usr/share/texmf-dist/fonts/tfm/impallari/cabin/CabinCondensed-RegularCond
 INPUT /usr/share/texmf-dist/fonts/tfm/impallari/cabin/CabinCondensed-BoldCondensed-tlf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/impallari/cabin/CabinCondensed-RegularCondensed-tlf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/impallari/cabin/CabinCondensed-BoldCondensed-tlf-t1.tfm
+INPUT ./images/logo.png
+INPUT ./images/logo.png
+INPUT ./images/logo.png
+INPUT ./images/logo.png
+INPUT ./images/logo.png
 INPUT /usr/share/texmf-dist/fonts/tfm/impallari/cabin/CabinCondensed-BoldCondensed-tlf-t1.tfm
-INPUT ./images/logo.png
-INPUT ./images/logo.png
-INPUT ./images/logo.png
-INPUT ./images/logo.png
-INPUT ./images/logo.png
 INPUT /usr/share/texmf-dist/fonts/vf/impallari/cabin/CabinCondensed-BoldCondensed-tlf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/impallari/cabin/CabinCondensed-BoldCondensed-tlf-t1--base.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map

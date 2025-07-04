@@ -1,14 +1,14 @@
 # Fdb version 4
 ["bibtex Inovacoes"] 0 "Inovacoes.aux" "Inovacoes.bbl" "Inovacoes" 0 -1
-  "./referencias.bib" 1751571424.5603 2754 319cb9cc8bef0901eb9593fe8034d5ce ""
+  "./referencias.bib" 1751629682.506 4947 cf1bd6d660a2be0336a6f3f291cbcc7d ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1742685315 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "Inovacoes.aux" 1751572992.02147 1326 1fdd18bd1366c9f0a334736bf76aeb9a "pdflatex"
+  "Inovacoes.aux" 1751630346.29526 1655 6a7099d7833159f3f557d90715901d32 "pdflatex"
   (generated)
   "Inovacoes.bbl"
   "Inovacoes.blg"
   (rewritten before read)
-["pdflatex"] 1751572991.24507 "/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex" "Inovacoes.pdf" "Inovacoes" 1751572992.23278 2
-  "/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex" 1751572989.70626 10954 0e822111245d742eb51c9186d1e44c42 ""
+["pdflatex"] 1751630345.502 "/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex" "Inovacoes.pdf" "Inovacoes" 1751630346.51368 2
+  "/home/italoxavier/Documentos/Trabalhos-Latex/Contexto-2/Inovacoes.tex" 1751630345.16213 19029 89f4921d740996dd8140d04b462d4f99 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cabin/cbn_i3ioen.enc" 1742685315 2809 947aec6f9801b5a045e999c93403fba2 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1742685315 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -95,6 +95,7 @@
   "/usr/share/texmf-dist/tex/latex/caption/caption.sty" 1742685315 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "/usr/share/texmf-dist/tex/latex/caption/caption3.sty" 1742685315 72619 ee90b6612147680fd73c3b1406a74245 ""
   "/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty" 1742685315 12726 67708fc852a887b2ba598148f60c3756 ""
+  "/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty" 1742685315 52272 63d293bc0d496619edb57585740861a2 ""
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1742685315 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty" 1742685315 4393 47f27fd4d95928d20b1885ba77de11d2 ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1742685315 46850 d87daedc2abdc653769a6f1067849fe0 ""
@@ -151,10 +152,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1749644614 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1749644543 2008242 6cedb9d7f44ed521db0867974f93351a ""
-  "Inovacoes.aux" 1751572992.02147 1326 1fdd18bd1366c9f0a334736bf76aeb9a "pdflatex"
-  "Inovacoes.bbl" 1751571424.83237 1024 37e60fa8542c03feaf1bc592f0cd86a5 "bibtex Inovacoes"
-  "Inovacoes.out" 1751572992.02247 1002 18288db0a880bcc82457602c8105ef7f "pdflatex"
-  "Inovacoes.tex" 1751572989.70626 10954 0e822111245d742eb51c9186d1e44c42 ""
+  "Inovacoes.aux" 1751630346.29526 1655 6a7099d7833159f3f557d90715901d32 "pdflatex"
+  "Inovacoes.bbl" 1751629682.77912 1024 37e60fa8542c03feaf1bc592f0cd86a5 "bibtex Inovacoes"
+  "Inovacoes.out" 1751630346.29642 1371 67d90e4ab99cd4b2d641cd4c69483391 "pdflatex"
+  "Inovacoes.tex" 1751630345.16213 19029 89f4921d740996dd8140d04b462d4f99 ""
   "images/logo.png" 1749648720.60532 166646 97a6091ae1ee86e3ab18519ae14bebec ""
   (generated)
   "Inovacoes.aux"
